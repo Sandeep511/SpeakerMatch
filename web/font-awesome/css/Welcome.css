@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+input[type=text] {
+	width: 300px;
+	height: 30px;
+	background: transparent;
+	border: 3px solid rgba(255, 255, 255, 0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+input[type=submit] {
+	width: 120px;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+input[type=submit]:hover {
+	opacity: 0.8;
+}
+
+input[type=submit]:active {
+	opacity: 0.6;
+}
+
+input[type=button] {
+	width: 120px;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+input[type=button]:hover {
+	opacity: 0.8;
+}
+
+input[type=button]:active {
+	opacity: 0.6;
+}
+
+input[type=text]:focus {
+	outline: none;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+input[type=submit]:focus {
+	outline: none;
+}
+
+/* CSS Document */
+h3 {
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+h4 {
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+table {
+	font-family: Calibri;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14pt;
+	font-style: normal;
+	background-color: transparent;
+	border-collapse: collapse;
+}
+
+table.inner {
+	border: 0px
+}
+
+.tablestyle input[type=text] {
+	width: 250px;
+	height: 17px;
+	background: transparent;
+	border: 0px solid rgba(255, 255, 255, 0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+.tablestyle input[type=date] {
+	width: 150px;
+	height: 20px;
+	background: transparent;
+	border: 0px solid rgba(255, 255, 255, 0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+.tablestyle input[type=submit] {
+	width: 90px;
+	height: 23px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 3px;
+	margin-top: 5px;
+}
+
+.tablestyle input[type=submit]:hover {
+	opacity: 0.8;
+}
+
+.tablestyle input[type=submit]:active {
+	opacity: 0.6;
+}
